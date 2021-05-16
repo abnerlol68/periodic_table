@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: purple;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+header h2 {
+  width: 55%;
+  padding: 2rem;
+  background-color: red;
+  margin: 0 auto;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  top: 13rem;
+}
+
+main ol {
+  width: 80%;
+  min-height: 1rem;
+  padding: 8rem 5rem 4rem;
+  background-color: lightgray;
+  margin: 10rem auto 5rem;
+  font-size: 1.6rem;
+  text-align: justify;
+  border-radius: 3rem;
+}
+
+main ol img {
+  width: 100%;
+}
+
+footer ul {
+  width: 80%;
+  min-height: 1rem;
+  padding: 5rem 5rem;
+  background-color: lightgray;
+  margin: 3rem auto;
+  font-size: 1.6rem;
+  text-align: justify;
+  border-radius: 3rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+
+footer a span {
+  position: relative;
+  top: 5.1px;
+}
